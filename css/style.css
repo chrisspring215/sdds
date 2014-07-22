@@ -498,7 +498,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Lato", sans-serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -2032,7 +2032,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Lato", sans-serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -2501,7 +2501,7 @@ meta.foundation-mq-topbar {
   color: white;
   padding: 12px 0 12px 0;
   padding-left: 15px;
-  font-family: "Lato", sans-serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   text-transform: none;
@@ -3960,7 +3960,7 @@ div.switch.round label {
   color: #eeeeee;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Lato", sans-serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 /* line 2154, ../scss/_foundation.scss */
@@ -3971,7 +3971,7 @@ div.switch.round label {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Lato", sans-serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 /* line 2162, ../scss/_foundation.scss */
@@ -4515,7 +4515,7 @@ div.switch.round label {
   background: #efefef;
   color: #222222;
   padding: 1rem 2rem;
-  font-family: "Lato", sans-serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1rem;
 }
 
@@ -4695,7 +4695,7 @@ ul.pagination li {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Lato", sans-serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 /* line 2610, ../scss/_foundation.scss */
@@ -4719,7 +4719,7 @@ ul.pagination li {
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
   font-weight: normal;
-  font-family: "Lato", sans-serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 /* line 2622, ../scss/_foundation.scss */
@@ -4765,7 +4765,7 @@ ul.pagination li {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Lato", sans-serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1rem;
 }
 
@@ -5086,7 +5086,7 @@ p aside {
 /* Default header styles */
 /* line 2840, ../scss/_foundation.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lato", sans-serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -6271,7 +6271,7 @@ dialog[open] {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "Lato", sans-serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -6523,7 +6523,7 @@ dialog[open] {
 /* line 3756, ../scss/_foundation.scss */
 .label {
   font-weight: normal;
-  font-family: "Lato", sans-serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Playfair Display", serif, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -8881,60 +8881,4 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 2, ../scss/_header.scss */
-header {
-  margin-bottom: 3em;
-  padding: .5em 0;
-}
-/* line 8, ../scss/_header.scss */
-header .title {
-  font-size: 1.55em;
-  font-weight: bold;
-}
-/* line 14, ../scss/_header.scss */
-header .address {
-  font-size: .75em;
-  font-weight: thin;
-}
-/* line 19, ../scss/_header.scss */
-header .background-images {
-  position: fixed;
-  z-index: -10;
-}
-
-/* line 4, ../scss/_mobile-global-nav.scss */
-.mobile-global-nav ul {
-  list-style-type: none;
-  margin: 0;
-  margin-bottom: 2em;
-}
-/* line 12, ../scss/_mobile-global-nav.scss */
-.mobile-global-nav li {
-  margin: 0;
-  padding: 0;
-  opacity: .9;
-}
-/* line 20, ../scss/_mobile-global-nav.scss */
-.mobile-global-nav a {
-  border: 2px solid #999;
-  display: block;
-  margin-bottom: 1px;
-  font-variant: small-caps;
-  font-weight: bold;
-  font-size: 1.25em;
-}
-
-/* line 2, ../scss/_main-content-area.scss */
-.main-content-area {
-  background-color: #333;
-  color: #fff;
-}
-/* line 7, ../scss/_main-content-area.scss */
-.main-content-area h1 {
-  color: #fff;
-}
-
-/* line 2, ../scss/_footer.scss */
-footer {
-  background-color: #333;
-}
+/* TYPE STYLE OVER RIDES */
