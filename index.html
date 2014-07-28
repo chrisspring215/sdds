@@ -23,7 +23,7 @@
     <!-- HEADER CONTENT BEGINS -->
     <header>
 
-      <nav class="top-bar hide-for-large" data-topbar>
+      <nav class="top-bar hide-for-large-up" data-topbar>
         <ul class="title-area">
           <li class="name"><h1><a href="#">Sterner Family Dental</a></h1></li>
           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone --><li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -31,14 +31,11 @@
         <section class="top-bar-section">
           <ul class="right">
             <li class="active"><a href="#">About</a></li>
-            <li class="has-dropdown"><a href="#">Teeth</a>
-              <ul class="dropdown">
-                <li><a href="#">First link in dropdown</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Mouth Guards</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Procedures</a></li>
+            <li><a href="#">Staff</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#">Floss</a></li>
+            <li><a href="#">Directions</a></li>
           </ul>
         </section>
       </nav>
@@ -48,11 +45,12 @@
           <a href=""><img class="large-logo" src="img/sterner-logo-stacked.png"></a>
         </div>
         <nav class="large-global-nav large-8 columns">
-          <a class="right" href="#">About</a>
+          <a class="right" href="#">Directions</a>
           <a class="right" href="#">Contact</a>
-          <a class="right" href="#">Teeth</a>
-          <a class="right" href="#">Toothpaste</a>
-          <a class="right" href="#">Floss</a>
+          <a class="right" href="#">Staff</a>
+          <a class="right" href="#">Procedures</a>
+          <a class="right" href="#">Services</a>
+          <a class="right" href="#">About</a>
         </nav>
 
       </div>
@@ -63,106 +61,86 @@
     <!-- MAIN CONTENT BEGINS -->
     <main>
       <div class="row">
+        <!-- Banner Image -->
         <div class="small-12 medium-12 large-12 columns">
-          <img src="http://placehold.it/970x371"/>
+          <img class="hide" src="http://placehold.it/970x371"/>
+          <img class="banner-image" src="img/banner-placeholder.png"/>
 
         </div>
+        <!-- Banner Image -->
       </div>
+
+      <div class="row">  
+        <!-- Callouts -->
+        <div class="small-12 medium-12 large-12 columns">
+          <div class="row">
+            <div class="callout-box small-12 medium-4 large-4 columns">
+              <h3>Services</h3>
+              <img src="img/service-placeholder.png">
+              <a class="button expand" href="">Procedures</a>
+            </div>
+            <div class="callout-box small-12 medium-4 large-4 columns">
+              <h3>Procedures</h3>
+              <img src="img/service-placeholder2.png">
+              <a class="button expand" href="">Procedures</a>
+            </div>
+            <div class="callout-box small-12 medium-4 large-4 columns">
+              <h3>Staff</h3>
+              <img src="img/service-placeholder3.png">
+              <a class="button expand" href="">Staff</a>
+            </div>
+          </div>
+        </div>
+        <!-- End Callouts -->
+      </div>
+      
       <div class="row">
-        <div class="small-12 medium-12 large-12 columns">
-          <h1><small>Headers</small></h1>
-          <h1>Sterner Family Dental</h1>
-          <h2 class="subheader">A great place for teeth</h2>
-          <h3>Sterner Family Dental</h3>
-          <h4>Sterner Family Dental</h4>
-          <h5>Sterner Family Dental</h5>
-          <h6>Sterner Family Dental</h6>
-          <h1><small>Paragraphs</small></h1>
-          <p>This is what a paragraph would look like. I am going to keep writing so you get the idea. Hi, my name is Chris and I make website for cool people. Pretty neat right. So in the next paragraph there are some types of formated text.</p>
-          <p><strong>This is some strong text</strong>. <em>This is some emphasised text</em>. This is a <a href="">link inside a paragraph</a>. Here is some <small>small text</small>. Hover over this: <abbr title="Doctor of Dental Surgery">DDS</abbr>. This is a citation <cite>The Comunist Manifestio</cite> by Karl Marx. This is <sup>super script</sup>.  This is <sub>sub script</sub></p>
-          
-          <h1><small>Lists</small></h1>
-          <ul class="circle"> <li>List item with a much longer description or more content.</li> <li>List item</li> <li>List item <ul> <li>Nested List Item</li> <li>Nested List Item</li> <li>Nested List Item</li> </ul> </li> <li>List item</li> <li>List item</li> <li>List item</li> </ul>
-          
-          <ul class="disc"> <li>List item with a much longer description or more content.</li> <li>List item</li> <li>List item <ul> <li>Nested List Item</li> <li>Nested List Item</li> <li>Nested List Item</li> </ul> </li> <li>List item</li> <li>List item</li> <li>List item</li> </ul>
-          
-          <ul class="square"> <li>List item with a much longer description or more content.</li> <li>List item</li> <li>List item <ul> <li>Nested List Item</li> <li>Nested List Item</li> <li>Nested List Item</li> </ul> </li> <li>List item</li> <li>List item</li> <li>List item</li> </ul>
-          
-          <ul class="circle"> <li>List item with a much longer description or more content.</li> <li>List item</li> <li>List item <ul> <li>Nested List Item</li> <li>Nested List Item</li> <li>Nested List Item</li> </ul> </li> <li>List item</li> <li>List item</li> <li>List item</li> </ul>
-
-          <ul class="no-bullet"> <li>List item with a much longer description or more content.</li> <li>List item</li> <li>List item <ul> <li>Nested List Item</li> <li>Nested List Item</li> <li>Nested List Item</li> </ul> </li> <li>List item</li> <li>List item</li> <li>List item</li> </ul>
-
-          <ol> <li>List item with a much longer description or more content.</li> <li>List item</li> <li>List item <ol> <li>Nested List Item</li> <li>Nested List Item</li> <li>Nested List Item</li> </ol> </li> <li>List item</li> <li>List item</li> <li>List item</li> </ol>
-
-          <h1><small>Quotes</small></h1>
-          <blockquote>Those people who think they know everything are a great annoyance to those of us who do.<cite>Isaac Asimov</cite></blockquote>
-
-
-          <br>
-          <br>
-          <h1><small>Buttons</small></h1>
-          <!-- Size Classes -->
-          <a href="#" class="button tiny">Tiny Button</a>
-          <br>
-          <a href="#" class="button small">Small Button</a>
-          <br>
-          <a href="#" class="button large">Large Button</a>
-          <!-- Color Classes -->
-          <a href="#" class="button secondary">Secondary Button</a>
-          <br>
-          <a href="#" class="button success">Success Button</a>
-          <br>
-          <a href="#" class="button alert">Alert Button</a>
-          <br>
-          <!-- Radius Classes -->
-          <a href="#" class="button radius">Radius Button</a>
-          <br>
-          <a href="#" class="button round">Radius Button</a>
-          <!-- Disabled Class -->
-          <a href="#" class="button disabled">Disabled Button</a>
-          <!-- Expand Class -->
-          <a href="#" class="button expand">Expanded Button</a>
-
-          <h1><small>Vcard</small></h1>
-          <ul class="vcard"> <li class="fn">Gaius Baltar</li> <li class="street-address">123 Colonial Ave.</li> <li class="locality">Caprica City</li> <li><span class="state">Caprica</span>, <span class="zip">12345</span></li> <li class="email"><a href="#">g.baltar@example.com</a></li> </ul>
-
-
-          <h1><small>Forms</small></h1>
-          <form> <div class="row"> <div class="large-12 columns"> <label>Input Label <input type="text" placeholder="large-12.columns" /> </label> </div> </div> <div class="row"> <div class="large-4 columns"> <label>Input Label <input type="text" placeholder="large-4.columns" /> </label> </div> <div class="large-4 columns"> <label>Input Label <input type="text" placeholder="large-4.columns" /> </label> </div> <div class="large-4 columns"> <div class="row collapse"> <label>Input Label</label> <div class="small-9 columns"> <input type="text" placeholder="small-9.columns" /> </div> <div class="small-3 columns"> <span class="postfix">.com</span> </div> </div> </div> </div> <div class="row"> <div class="large-12 columns"> <label>Select Box <select> <option value="husker">Husker</option> <option value="starbuck">Starbuck</option> <option value="hotdog">Hot Dog</option> <option value="apollo">Apollo</option> </select> </label> </div> </div> <div class="row"> <div class="large-6 columns"> <label>Choose Your Favorite</label> <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label> <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label> </div> <div class="large-6 columns"> <label>Check these out</label> <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label> <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label> </div> </div> <div class="row"> <div class="large-12 columns"> <label>Textarea Label <textarea placeholder="small-12.columns"></textarea> </label> </div> </div> </form>
-
-          <h1><small>Tables</small></h1>
-          <table> <thead> <tr> <th width="200">Table Header</th> <th>Table Header</th> <th width="150">Table Header</th> <th width="150">Table Header</th> </tr> </thead> <tbody> <tr> <td>Content Goes Here</td> <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td> <td>Content Goes Here</td> <td>Content Goes Here</td> </tr> <tr> <td>Content Goes Here</td> <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td> <td>Content Goes Here</td> <td>Content Goes Here</td> </tr> <tr> <td>Content Goes Here</td> <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td> <td>Content Goes Here</td> <td>Content Goes Here</td> </tr> </tbody> </table>
-
-          <h1><small>Labels</small></h1>
-          <span class="label">Advanced Label</span>
-          <br>
-          <br>
-          <span class="success round label">Advanced Label</span>
-          <br>
-          <br>
-          <span class="alert round radius label">Advanced Label</span>
-          <br>
-          <br>
-          <span class="secondary label">Advanced Label</span>
-          <br>
-          <br>
-          <span class="round label">Advanced Label</span>
-          <br>
-          <br>
-          <span class="radius label">Advanced Label</span>
-
-          <h1><small>Panels</small></h1>
-          <div class="panel"> <h5>This is a callout panel.</h5> <p>It's a little ostentatious, but useful for important content.</p> </div>
-
-          <div class="panel callout"> <h5>This is a callout panel.</h5> <p>It's a little ostentatious, but useful for important content.</p> </div>
-
-          <div class="panel radius"> <h5>This is a callout panel.</h5> <p>It's a little ostentatious, but useful for important content.</p> </div>
-
-          <h1><small>Pricing Table</small></h1>
-          <ul class="pricing-table"> <li class="title">Standard</li> <li class="price">$99.99</li> <li class="description">An awesome description</li> <li class="bullet-item">1 Database</li> <li class="bullet-item">5GB Storage</li> <li class="bullet-item">20 Users</li> <li class="cta-button"><a class="button" href="#">Buy Now</a></li> </ul>
-
+        <!-- Section Divider -->
+        <div class="small-10 medium-10 large-10 small-offset-1 medium-offset-1 large-offset-1 columns ">
+          <hr>
         </div>
+        <!-- End Section Divider -->
       </div>
+
+      <div class="row">      
+        <!-- Left Side Main Content -->
+        <div class="small-12 medium-7 large-8 columns">
+          <h1>Sterner Family Dential</h1>
+          <h4 class="subheader">Family Dentistry for Whitmore Lake and Washtenaw County</h4>
+          <p>Our mission is to provide high quality dental care in a comfortable environment, and to treat each patient as an individual and a friend. Our team of dental professionals works together as a cohesive unit to run an efficient practice, always considerate of our patients’ time, needs and concerns.</p>
+          <p>We are committed to educating all our patients on the importance of good dental health, and through creating good dental health we are able to improve their overall quality of life.</p>
+          <p>Dr. Sterner and our team will stay knowledgeable on the ever-changing field of dental science with continual learning. Most importantly, we will always strive to provide patients with the very best that dentistry can offer, so that they maintain a healthy, beautiful smile for a lifetime!</p>
+        </div>
+        <!-- Left Side Main Content -->
+
+        <!-- Sidebar Content -->
+        <div class="small-12 medium-5 large-4 columns">
+          <h1><small>Directions <small>&amp;</small> Contact</small></h1>
+          <div class="panel radius">
+            <span class="label">Maps</span>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2945.2242212068254!2d-83.765524!3d42.422962!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2cfa8238f385e443!2sDemsky+Alan+DDS!5e0!3m2!1sen!2sus!4v1406481292682" frameborder="true" style="border: 1px solid #ccc"></iframe>
+            <br>
+            <br>
+            <span class="label">Contact</span>
+
+            <!-- Vcard -->
+            <div id="" class="vcard">
+              <a class="url fn n" href="http://www.sternerfamilydental.com"></a>
+              <div class="org">Sterner Family Dental</div>
+              <div class="adr">
+                <div class="street-address">156 Barker Rd.</div>
+                <span class="locality">Whitmore Lake,</span> 
+                <span class="region">MI</span>
+                <span class="postal-code">48189</span>
+              </div>
+              <div class="tel">(734) 449.2081  Fax (734) ???.????</div>
+            </div>
+            <!-- End Vcard -->
+          </div>
+        </div>
+        <!-- End SIdebar Content -->
+      </div>
+
     </main>
     <!-- MAIN CONTENT ENDS -->
 

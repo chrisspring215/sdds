@@ -31,3 +31,21 @@ header .top-bar
 	 border: 1px solid $light-grey;
 	 margin-left: 4px;
 }
+
+.banner-image
+{
+	border: 1px solid $light-grey;
+}
+
+.callout-box img
+{
+	border: 1px solid $light-grey;
+	margin-bottom: .5em;
+}
+
+iframe
+{
+
+	width: 100%;
+	height: auto;
+}
