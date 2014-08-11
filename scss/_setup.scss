@@ -49,3 +49,60 @@ iframe
 	width: 100%;
 	height: auto;
 }
+
+.vcard
+{
+	line-height: 1.3em;
+	color: $grey;
+
+	strong
+	{
+		color: $blue;
+	}
+}
+
+.large-header-address
+{
+	color: $grey;
+	line-height: 1.4em;
+	font-size: .9em;
+	margin-top: .5em;
+}
+
+.construction
+{
+	h1
+	{
+		color: $blue;
+	}
+
+	strong
+	{
+		color: $black;
+		font-size: 1.5em;
+	}
+}
+
+footer
+{
+	background: $black;
+	padding-top: 2em;
+	padding-bottom: 2em;
+
+	.row
+	{
+		margin-bottom: 0;
+		height: 6em;
+	}
+
+	.vcard
+	{
+		color: $white;
+		border: none;
+
+		strong
+		{
+			color: $white;
+		}
+	}
+}

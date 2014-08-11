@@ -8931,4 +8931,53 @@ iframe {
   height: auto;
 }
 
+/* line 54, ../scss/_setup.scss */
+.vcard {
+  line-height: 1.3em;
+  color: #666666;
+}
+/* line 59, ../scss/_setup.scss */
+.vcard strong {
+  color: #0088af;
+}
+
+/* line 65, ../scss/_setup.scss */
+.large-header-address {
+  color: #666666;
+  line-height: 1.4em;
+  font-size: .9em;
+  margin-top: .5em;
+}
+
+/* line 75, ../scss/_setup.scss */
+.construction h1 {
+  color: #0088af;
+}
+/* line 80, ../scss/_setup.scss */
+.construction strong {
+  color: #333333;
+  font-size: 1.5em;
+}
+
+/* line 87, ../scss/_setup.scss */
+footer {
+  background: #333333;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+/* line 93, ../scss/_setup.scss */
+footer .row {
+  margin-bottom: 0;
+  height: 6em;
+}
+/* line 99, ../scss/_setup.scss */
+footer .vcard {
+  color: white;
+  border: none;
+}
+/* line 104, ../scss/_setup.scss */
+footer .vcard strong {
+  color: white;
+}
+
 /* TYPE STYLE OVER RIDES */
