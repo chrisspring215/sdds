@@ -24,7 +24,37 @@ header
 	}
 }
 
+.top-bar
+{
 
+
+ .title-area h1 a
+ {
+ 	font-family: $font1;
+ 	font-weight: bold;
+ 	color: $blue;
+ }
+
+ .top-bar-section
+ {
+
+ 	li
+ 	{
+ 		border-bottom: 1px solid $grey;
+ 	}
+
+ 	a
+ 	{
+ 		font-weight: bold;
+ 	}
+ }
+}
+
+p
+{
+	color: #444;
+	font-family: $font1;
+}
 
 main small
 {
@@ -37,6 +67,33 @@ main
 	{
 		font-size: 1.75em;
 		color: $blue;
+		margin-top: 0;
+	}
+
+	.in-page-nav
+	{
+		margin-top: 1.5em;
+		margin-bottom: .25em;
+
+		a
+		{
+			display: block;
+			border: 3px solid $blue;
+			background-color: none;
+			padding-top: .75em;
+			padding-bottom: .75em;
+			margin-bottom: .5em;
+			transition: background-color 0.2s ease, color 0.2s ease;
+			font-weight: bold;
+			color: $blue;
+		}
+
+		a:hover
+		{
+			transition: background-color 0.2s ease, color 0.2s ease;
+			background-color: $blue;
+			color: $white;
+		}
 	}
 }
 
