@@ -8882,66 +8882,72 @@ th.hide-for-touch {
 }
 
 /* line 4, ../scss/_setup.scss */
-main small {
-  color: #0088af;
-}
-
-/* line 9, ../scss/_setup.scss */
 header {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 15, ../scss/_setup.scss */
+/* line 10, ../scss/_setup.scss */
 header .top-bar .name, header .top-bar li {
   font-variant: small-caps;
 }
 
-/* line 19, ../scss/_setup.scss */
+/* line 14, ../scss/_setup.scss */
 header .top-bar {
   margin-top: -1em;
 }
 
-/* line 24, ../scss/_setup.scss */
-.large-global-nav {
-  margin-top: 4em;
+/* line 21, ../scss/_setup.scss */
+header .phone-number-small {
+  color: #0088af;
+  display: block;
 }
 
-/* line 29, ../scss/_setup.scss */
-.large-global-nav a {
-  padding: .5em 1em;
-  border: 1px solid #cccccc;
-  margin-left: 4px;
+/* line 30, ../scss/_setup.scss */
+main small {
+  color: #0088af;
 }
 
-/* line 36, ../scss/_setup.scss */
+/* line 37, ../scss/_setup.scss */
+main .main-content-header {
+  font-size: 1.75em;
+  color: #0088af;
+}
+
+/* line 44, ../scss/_setup.scss */
+.logo-image {
+  margin: .25em 0 0 0;
+}
+
+/* line 49, ../scss/_setup.scss */
 .banner-image {
-  border: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
 }
 
-/* line 41, ../scss/_setup.scss */
+/* line 56, ../scss/_setup.scss */
 .callout-box img {
   border: 1px solid #cccccc;
   margin-bottom: .5em;
 }
 
-/* line 47, ../scss/_setup.scss */
+/* line 62, ../scss/_setup.scss */
 iframe {
   width: 100%;
   height: auto;
 }
 
-/* line 54, ../scss/_setup.scss */
+/* line 69, ../scss/_setup.scss */
 .vcard {
   line-height: 1.3em;
   color: #666666;
 }
-/* line 59, ../scss/_setup.scss */
+/* line 74, ../scss/_setup.scss */
 .vcard strong {
   color: #0088af;
 }
 
-/* line 65, ../scss/_setup.scss */
+/* line 80, ../scss/_setup.scss */
 .large-header-address {
   color: #666666;
   line-height: 1.4em;
@@ -8949,33 +8955,33 @@ iframe {
   margin-top: .5em;
 }
 
-/* line 75, ../scss/_setup.scss */
+/* line 90, ../scss/_setup.scss */
 .construction h1 {
   color: #0088af;
 }
-/* line 80, ../scss/_setup.scss */
+/* line 95, ../scss/_setup.scss */
 .construction strong {
   color: #333333;
   font-size: 1.5em;
 }
 
-/* line 87, ../scss/_setup.scss */
+/* line 102, ../scss/_setup.scss */
 footer {
   background: #333333;
   padding-top: 2em;
   padding-bottom: 2em;
 }
-/* line 93, ../scss/_setup.scss */
+/* line 108, ../scss/_setup.scss */
 footer .row {
   margin-bottom: 0;
   height: 6em;
 }
-/* line 99, ../scss/_setup.scss */
+/* line 114, ../scss/_setup.scss */
 footer .vcard {
   color: white;
   border: none;
 }
-/* line 104, ../scss/_setup.scss */
+/* line 119, ../scss/_setup.scss */
 footer .vcard strong {
   color: white;
 }
