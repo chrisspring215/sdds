@@ -8899,37 +8899,51 @@ header .top-bar {
 
 /* line 21, ../scss/_setup.scss */
 header .phone-number-small {
-  color: #0088af;
   display: block;
+  border: 3px solid #00749b;
+  background-color: #0088af;
+  padding-top: .75em;
+  padding-bottom: .75em;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  font-weight: bold;
+  color: white;
+  font-variant: small-caps;
+  border-radius: .1em;
+  margin: .75em 0 0em 0;
 }
 
-/* line 32, ../scss/_setup.scss */
+/* line 40, ../scss/_setup.scss */
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 49, ../scss/_setup.scss */
 .top-bar .title-area h1 a {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   color: #0088af;
 }
-/* line 42, ../scss/_setup.scss */
+/* line 59, ../scss/_setup.scss */
 .top-bar .top-bar-section li {
   border-bottom: 1px solid #666666;
 }
-/* line 47, ../scss/_setup.scss */
+/* line 64, ../scss/_setup.scss */
 .top-bar .top-bar-section a {
   font-weight: bold;
 }
 
-/* line 54, ../scss/_setup.scss */
+/* line 71, ../scss/_setup.scss */
 p {
   color: #444;
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 60, ../scss/_setup.scss */
+/* line 77, ../scss/_setup.scss */
 main small {
   color: #0088af;
 }
 
-/* line 73, ../scss/_setup.scss */
+/* line 90, ../scss/_setup.scss */
 .large-global-nav .global-nav-button {
   transition: background-color 0.2s ease, color 0.2s ease;
   margin-top: .75em;
@@ -8938,78 +8952,99 @@ main small {
   padding: 1em 0;
   font-weight: bold;
 }
-/* line 83, ../scss/_setup.scss */
+/* line 100, ../scss/_setup.scss */
 .large-global-nav .global-nav-button:hover {
   transition: background-color 0.2s ease, color 0.2s ease;
   background-color: #0088af;
   color: white;
 }
 
-/* line 93, ../scss/_setup.scss */
-main .main-content-header {
-  font-size: 1.75em;
-  color: #0088af;
-  margin-top: 0;
+/* line 115, ../scss/_setup.scss */
+main .small-header-tagline {
+  background: #333333;
 }
-/* line 100, ../scss/_setup.scss */
+/* line 119, ../scss/_setup.scss */
+main .main-content-header {
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #333333;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+/* line 132, ../scss/_setup.scss */
 main .in-page-nav {
-  margin-top: 1.5em;
+  margin-top: .5em;
   margin-bottom: .25em;
 }
-/* line 105, ../scss/_setup.scss */
+/* line 137, ../scss/_setup.scss */
 main .in-page-nav a {
   display: block;
-  border: 3px solid #0088af;
-  background-color: none;
+  border: 3px solid #00749b;
+  background-color: #0088af;
   padding-top: .75em;
   padding-bottom: .75em;
   margin-bottom: .5em;
   transition: background-color 0.2s ease, color 0.2s ease;
   font-weight: bold;
-  color: #0088af;
+  font-size: 1.25em;
+  color: white;
+  font-variant: small-caps;
+  border-radius: .1em;
 }
-/* line 119, ../scss/_setup.scss */
+/* line 156, ../scss/_setup.scss */
 main .in-page-nav a:hover {
   transition: background-color 0.2s ease, color 0.2s ease;
-  background-color: #0088af;
-  color: white;
+  background-color: white;
+  color: #0088af;
+}
+/* line 164, ../scss/_setup.scss */
+main h2.sub-header {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #0088af;
 }
 
-/* line 128, ../scss/_setup.scss */
+/* line 173, ../scss/_setup.scss */
 .logo-image {
   margin: .25em 0 0 0;
 }
 
-/* line 133, ../scss/_setup.scss */
+/* line 178, ../scss/_setup.scss */
 .banner-image {
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
   width: 100%;
+  margin-top: .25em;
 }
 
-/* line 141, ../scss/_setup.scss */
+/* line 187, ../scss/_setup.scss */
 .callout-box img {
   border: 1px solid #cccccc;
   margin-bottom: .5em;
 }
 
-/* line 147, ../scss/_setup.scss */
+/* line 193, ../scss/_setup.scss */
 iframe {
   width: 100%;
   height: auto;
 }
 
-/* line 154, ../scss/_setup.scss */
+/* line 200, ../scss/_setup.scss */
 .vcard {
   line-height: 1.3em;
   color: #666666;
 }
-/* line 159, ../scss/_setup.scss */
+/* line 205, ../scss/_setup.scss */
 .vcard strong {
   color: #0088af;
 }
 
-/* line 165, ../scss/_setup.scss */
+/* line 211, ../scss/_setup.scss */
 .large-header-address {
   color: #666666;
   line-height: 1.4em;
@@ -9017,33 +9052,33 @@ iframe {
   margin-top: .5em;
 }
 
-/* line 175, ../scss/_setup.scss */
+/* line 221, ../scss/_setup.scss */
 .construction h1 {
   color: #0088af;
 }
-/* line 180, ../scss/_setup.scss */
+/* line 226, ../scss/_setup.scss */
 .construction strong {
   color: #333333;
   font-size: 1.5em;
 }
 
-/* line 187, ../scss/_setup.scss */
+/* line 233, ../scss/_setup.scss */
 footer {
   background: #333333;
   padding-top: 2em;
   padding-bottom: 2em;
 }
-/* line 193, ../scss/_setup.scss */
+/* line 239, ../scss/_setup.scss */
 footer .row {
   margin-bottom: 0;
   height: 6em;
 }
-/* line 199, ../scss/_setup.scss */
+/* line 245, ../scss/_setup.scss */
 footer .vcard {
   color: white;
   border: none;
 }
-/* line 204, ../scss/_setup.scss */
+/* line 250, ../scss/_setup.scss */
 footer .vcard strong {
   color: white;
 }
