@@ -8929,18 +8929,34 @@ main small {
   color: #0088af;
 }
 
-/* line 67, ../scss/_setup.scss */
+/* line 73, ../scss/_setup.scss */
+.large-global-nav .global-nav-button {
+  transition: background-color 0.2s ease, color 0.2s ease;
+  margin-top: .75em;
+  border: 3px solid #0088af;
+  display: block;
+  padding: 1em 0;
+  font-weight: bold;
+}
+/* line 83, ../scss/_setup.scss */
+.large-global-nav .global-nav-button:hover {
+  transition: background-color 0.2s ease, color 0.2s ease;
+  background-color: #0088af;
+  color: white;
+}
+
+/* line 93, ../scss/_setup.scss */
 main .main-content-header {
   font-size: 1.75em;
   color: #0088af;
   margin-top: 0;
 }
-/* line 74, ../scss/_setup.scss */
+/* line 100, ../scss/_setup.scss */
 main .in-page-nav {
   margin-top: 1.5em;
   margin-bottom: .25em;
 }
-/* line 79, ../scss/_setup.scss */
+/* line 105, ../scss/_setup.scss */
 main .in-page-nav a {
   display: block;
   border: 3px solid #0088af;
@@ -8952,47 +8968,48 @@ main .in-page-nav a {
   font-weight: bold;
   color: #0088af;
 }
-/* line 92, ../scss/_setup.scss */
+/* line 119, ../scss/_setup.scss */
 main .in-page-nav a:hover {
   transition: background-color 0.2s ease, color 0.2s ease;
   background-color: #0088af;
   color: white;
 }
 
-/* line 101, ../scss/_setup.scss */
+/* line 128, ../scss/_setup.scss */
 .logo-image {
   margin: .25em 0 0 0;
 }
 
-/* line 106, ../scss/_setup.scss */
+/* line 133, ../scss/_setup.scss */
 .banner-image {
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
+  width: 100%;
 }
 
-/* line 113, ../scss/_setup.scss */
+/* line 141, ../scss/_setup.scss */
 .callout-box img {
   border: 1px solid #cccccc;
   margin-bottom: .5em;
 }
 
-/* line 119, ../scss/_setup.scss */
+/* line 147, ../scss/_setup.scss */
 iframe {
   width: 100%;
   height: auto;
 }
 
-/* line 126, ../scss/_setup.scss */
+/* line 154, ../scss/_setup.scss */
 .vcard {
   line-height: 1.3em;
   color: #666666;
 }
-/* line 131, ../scss/_setup.scss */
+/* line 159, ../scss/_setup.scss */
 .vcard strong {
   color: #0088af;
 }
 
-/* line 137, ../scss/_setup.scss */
+/* line 165, ../scss/_setup.scss */
 .large-header-address {
   color: #666666;
   line-height: 1.4em;
@@ -9000,33 +9017,33 @@ iframe {
   margin-top: .5em;
 }
 
-/* line 147, ../scss/_setup.scss */
+/* line 175, ../scss/_setup.scss */
 .construction h1 {
   color: #0088af;
 }
-/* line 152, ../scss/_setup.scss */
+/* line 180, ../scss/_setup.scss */
 .construction strong {
   color: #333333;
   font-size: 1.5em;
 }
 
-/* line 159, ../scss/_setup.scss */
+/* line 187, ../scss/_setup.scss */
 footer {
   background: #333333;
   padding-top: 2em;
   padding-bottom: 2em;
 }
-/* line 165, ../scss/_setup.scss */
+/* line 193, ../scss/_setup.scss */
 footer .row {
   margin-bottom: 0;
   height: 6em;
 }
-/* line 171, ../scss/_setup.scss */
+/* line 199, ../scss/_setup.scss */
 footer .vcard {
   color: white;
   border: none;
 }
-/* line 176, ../scss/_setup.scss */
+/* line 204, ../scss/_setup.scss */
 footer .vcard strong {
   color: white;
 }

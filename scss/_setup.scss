@@ -61,6 +61,32 @@ main small
 	color: $blue;
 }
 
+.large-global-nav
+{
+
+	.global-nav-logo
+	{
+
+	}
+
+	.global-nav-button
+	{
+		transition: background-color 0.2s ease, color 0.2s ease;
+		margin-top: .75em;
+		border: 3px solid $blue;
+		display: block;
+		padding: 1em 0; 
+		font-weight: bold;
+	}
+
+	.global-nav-button:hover
+	{
+		transition: background-color 0.2s ease, color 0.2s ease;
+		background-color: $blue;
+		color: $white;
+	}
+}
+
 main
 {
 	.main-content-header
@@ -86,6 +112,7 @@ main
 			transition: background-color 0.2s ease, color 0.2s ease;
 			font-weight: bold;
 			color: $blue;
+
 		}
 
 		a:hover
@@ -106,6 +133,7 @@ main
 {
 	border-top: 1px solid $light-grey;
 	border-bottom: 1px solid $light-grey;
+	width: 100%;
 }
 
 
