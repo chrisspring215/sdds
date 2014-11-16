@@ -1,4 +1,19 @@
+body
+{
+	background: url(../img/background-patern.gif);
+	background: #ffffff; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #eaeaea 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#eaeaea)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#eaeaea 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#eaeaea 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#eaeaea 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #ffffff 0%,#eaeaea 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
+
+
+
+}
 
 header
 {
@@ -20,16 +35,16 @@ header
 	.phone-number-small
 	{
 		display: block;
-			border: 3px solid $blue - 20;
-			background-color: $blue;
-			padding-top: .75em;
-			padding-bottom: .75em;
-			transition: background-color 0.2s ease, color 0.2s ease;
-			font-weight: bold;
-			color: $white;
-			font-variant: small-caps;
-			border-radius: .1em;
-			margin: .75em 0 0em 0;
+		border: 3px solid $blue - 20;
+		background-color: $blue;
+		padding-top: .75em;
+		padding-bottom: .75em;
+		transition: background-color 0.2s ease, color 0.2s ease;
+		font-weight: bold;
+		color: $white;
+		font-variant: small-caps;
+		border-radius: .1em;
+		margin: .75em 0 0em 0;
 
 
 
@@ -80,12 +95,16 @@ main small
 
 .large-global-nav
 {
-
+	/*
 	.global-nav-logo
 	{
-
+		background: $white;
+		display: block;
+		padding: .25em 1em;
+		border: 3px solid $blue;
+		border-radius: .3em;
 	}
-
+	*/
 	.global-nav-button
 	{
 		transition: background-color 0.2s ease, color 0.2s ease;
@@ -94,6 +113,8 @@ main small
 		display: block;
 		padding: 1em 0; 
 		font-weight: bold;
+
+		border-radius: .3em;
 	}
 
 	.global-nav-button:hover
@@ -106,6 +127,8 @@ main small
 
 main
 {
+	margin-bottom: 3em;
+
 	.full-row
 	{
 
@@ -126,6 +149,21 @@ main
 		background-color: $black;
 		padding-top: .5em;
 		padding-bottom: .5em;
+	}
+
+
+
+	.main-content-header-medium-large
+	{
+		font-size: 3.25em;
+		font-weight: 600;
+		color: $black;
+		margin-top: 0;
+		margin-bottom: 0;
+		font-family: $font1;
+		padding-top: .5em;
+		padding-bottom: .5em;
+		font-variant: small-caps;
 	}
 
 	.in-page-nav
@@ -169,6 +207,54 @@ main
 	}
 }
 
+.sub-page
+{
+	color: $grey;
+
+	h1
+	{
+		color: $blue;
+		font-weight: bold;
+	}
+
+	h2
+	{
+		font-family: $font1;
+		font-weight: bold;
+		font-size: 1.25em;
+		color: $blue;
+	}
+
+	p
+	{
+		color: $grey;
+	}
+
+	ul
+	{
+		list-style-type: none;
+		margin: 0 0 1em 0;
+	}
+
+	li
+	{
+		border-bottom: 1px solid $light-grey;
+		padding: .5em 0; 
+	}
+
+	img
+	{
+		margin-bottom: 1em;
+		border: 1px solid $light-grey;
+		border-radius: .3em;
+	}
+
+	.sub-page-leadin
+	{
+		font-weight: bold;
+	}
+}
+
 .logo-image
 {
 	margin: .25em 0 0 0;
@@ -198,8 +284,10 @@ iframe
 
 .vcard
 {
+	display: block;
 	line-height: 1.3em;
 	color: $grey;
+	width: 100%;
 
 	strong
 	{
