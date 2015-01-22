@@ -9177,4 +9177,13 @@ footer .vcard strong {
   color: white;
 }
 
+/* line 347, ../scss/_setup.scss */
+.contact-page .sub-header {
+  color: #666;
+}
+/* line 352, ../scss/_setup.scss */
+.contact-page span {
+  color: #666;
+}
+
 /* TYPE STYLE OVER RIDES */
