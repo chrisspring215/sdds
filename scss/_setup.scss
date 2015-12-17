@@ -9,10 +9,6 @@ background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#eaeaea 100%);
 background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#eaeaea 100%); /* IE10+ */
 background: radial-gradient(ellipse at center,  #ffffff 0%,#eaeaea 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-
-
-
 }
 
 header
@@ -45,9 +41,6 @@ header
 		font-variant: small-caps;
 		border-radius: .1em;
 		margin: .75em 0 0em 0;
-
-
-
 	}
 }
 
@@ -58,7 +51,6 @@ h1
 
 .top-bar
 {
-
 
  .title-area h1 a
  {

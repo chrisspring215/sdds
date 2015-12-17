@@ -8902,23 +8902,23 @@ body {
   /* IE6-9 fallback on horizontal gradient */
 }
 
-/* line 19, ../scss/_setup.scss */
+/* line 15, ../scss/_setup.scss */
 header {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 25, ../scss/_setup.scss */
+/* line 21, ../scss/_setup.scss */
 header .top-bar .name, header .top-bar li {
   font-variant: small-caps;
 }
 
-/* line 29, ../scss/_setup.scss */
+/* line 25, ../scss/_setup.scss */
 header .top-bar {
   margin-top: -1em;
 }
 
-/* line 36, ../scss/_setup.scss */
+/* line 32, ../scss/_setup.scss */
 header .phone-number-small {
   display: block;
   border: 3px solid #00749b;
@@ -8933,38 +8933,38 @@ header .phone-number-small {
   margin: .75em 0 0em 0;
 }
 
-/* line 55, ../scss/_setup.scss */
+/* line 48, ../scss/_setup.scss */
 h1 {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 64, ../scss/_setup.scss */
+/* line 56, ../scss/_setup.scss */
 .top-bar .title-area h1 a {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   color: #0088af;
 }
-/* line 74, ../scss/_setup.scss */
+/* line 66, ../scss/_setup.scss */
 .top-bar .top-bar-section li {
   border-bottom: 1px solid #666666;
 }
-/* line 79, ../scss/_setup.scss */
+/* line 71, ../scss/_setup.scss */
 .top-bar .top-bar-section a {
   font-weight: bold;
 }
 
-/* line 86, ../scss/_setup.scss */
+/* line 78, ../scss/_setup.scss */
 p {
   color: #444;
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 92, ../scss/_setup.scss */
+/* line 84, ../scss/_setup.scss */
 main small {
   color: #0088af;
 }
 
-/* line 97, ../scss/_setup.scss */
+/* line 89, ../scss/_setup.scss */
 .large-global-nav {
   /*
   .global-nav-logo
@@ -8977,7 +8977,7 @@ main small {
   }
   */
 }
-/* line 109, ../scss/_setup.scss */
+/* line 101, ../scss/_setup.scss */
 .large-global-nav .global-nav-button {
   transition: background-color 0.2s ease, color 0.2s ease;
   margin-top: .75em;
@@ -8987,22 +8987,22 @@ main small {
   font-weight: bold;
   border-radius: .3em;
 }
-/* line 121, ../scss/_setup.scss */
+/* line 113, ../scss/_setup.scss */
 .large-global-nav .global-nav-button:hover {
   transition: background-color 0.2s ease, color 0.2s ease;
   background-color: #0088af;
   color: white;
 }
 
-/* line 129, ../scss/_setup.scss */
+/* line 121, ../scss/_setup.scss */
 main {
   margin-bottom: 3em;
 }
-/* line 138, ../scss/_setup.scss */
+/* line 130, ../scss/_setup.scss */
 main .small-header-tagline {
   background: #333333;
 }
-/* line 142, ../scss/_setup.scss */
+/* line 134, ../scss/_setup.scss */
 main .main-content-header {
   font-size: 1em;
   font-weight: bold;
@@ -9014,7 +9014,7 @@ main .main-content-header {
   padding-top: .5em;
   padding-bottom: .5em;
 }
-/* line 157, ../scss/_setup.scss */
+/* line 149, ../scss/_setup.scss */
 main .main-content-header-medium-large {
   font-size: 3.25em;
   font-weight: 600;
@@ -9026,12 +9026,12 @@ main .main-content-header-medium-large {
   padding-bottom: .5em;
   font-variant: small-caps;
 }
-/* line 170, ../scss/_setup.scss */
+/* line 162, ../scss/_setup.scss */
 main .in-page-nav {
   margin-top: .5em;
   margin-bottom: .25em;
 }
-/* line 175, ../scss/_setup.scss */
+/* line 167, ../scss/_setup.scss */
 main .in-page-nav a {
   display: block;
   border: 3px solid #00749b;
@@ -9046,13 +9046,13 @@ main .in-page-nav a {
   font-variant: small-caps;
   border-radius: .1em;
 }
-/* line 194, ../scss/_setup.scss */
+/* line 186, ../scss/_setup.scss */
 main .in-page-nav a:hover {
   transition: background-color 0.2s ease, color 0.2s ease;
   background-color: white;
   color: #0088af;
 }
-/* line 202, ../scss/_setup.scss */
+/* line 194, ../scss/_setup.scss */
 main h2.sub-header {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
@@ -9060,53 +9060,53 @@ main h2.sub-header {
   color: #0088af;
 }
 
-/* line 211, ../scss/_setup.scss */
+/* line 203, ../scss/_setup.scss */
 .sub-page {
   color: #666666;
 }
-/* line 215, ../scss/_setup.scss */
+/* line 207, ../scss/_setup.scss */
 .sub-page h1 {
   color: #0088af;
   font-weight: bold;
 }
-/* line 221, ../scss/_setup.scss */
+/* line 213, ../scss/_setup.scss */
 .sub-page h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 1.25em;
   color: #0088af;
 }
-/* line 229, ../scss/_setup.scss */
+/* line 221, ../scss/_setup.scss */
 .sub-page p {
   color: #666666;
 }
-/* line 234, ../scss/_setup.scss */
+/* line 226, ../scss/_setup.scss */
 .sub-page ul {
   list-style-type: none;
   margin: 0 0 1em 0;
 }
-/* line 240, ../scss/_setup.scss */
+/* line 232, ../scss/_setup.scss */
 .sub-page li {
   border-bottom: 1px solid #cccccc;
   padding: .5em 0;
 }
-/* line 246, ../scss/_setup.scss */
+/* line 238, ../scss/_setup.scss */
 .sub-page img {
   margin-bottom: 1em;
   border: 1px solid #cccccc;
   border-radius: .3em;
 }
-/* line 253, ../scss/_setup.scss */
+/* line 245, ../scss/_setup.scss */
 .sub-page .sub-page-leadin {
   font-weight: bold;
 }
 
-/* line 259, ../scss/_setup.scss */
+/* line 251, ../scss/_setup.scss */
 .logo-image {
   margin: .25em 0 0 0;
 }
 
-/* line 264, ../scss/_setup.scss */
+/* line 256, ../scss/_setup.scss */
 .banner-image {
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
@@ -9114,31 +9114,31 @@ main h2.sub-header {
   margin-top: .25em;
 }
 
-/* line 273, ../scss/_setup.scss */
+/* line 265, ../scss/_setup.scss */
 .callout-box img {
   border: 1px solid #cccccc;
   margin-bottom: .5em;
 }
 
-/* line 279, ../scss/_setup.scss */
+/* line 271, ../scss/_setup.scss */
 iframe {
   width: 100%;
   height: auto;
 }
 
-/* line 286, ../scss/_setup.scss */
+/* line 278, ../scss/_setup.scss */
 .vcard {
   display: block;
   line-height: 1.3em;
   color: #666666;
   width: 100%;
 }
-/* line 293, ../scss/_setup.scss */
+/* line 285, ../scss/_setup.scss */
 .vcard strong {
   color: #0088af;
 }
 
-/* line 299, ../scss/_setup.scss */
+/* line 291, ../scss/_setup.scss */
 .large-header-address {
   color: #666666;
   line-height: 1.4em;
@@ -9146,42 +9146,42 @@ iframe {
   margin-top: .5em;
 }
 
-/* line 309, ../scss/_setup.scss */
+/* line 301, ../scss/_setup.scss */
 .construction h1 {
   color: #0088af;
 }
-/* line 314, ../scss/_setup.scss */
+/* line 306, ../scss/_setup.scss */
 .construction strong {
   color: #333333;
   font-size: 1.5em;
 }
 
-/* line 321, ../scss/_setup.scss */
+/* line 313, ../scss/_setup.scss */
 footer {
   background: #333333;
   padding-top: 2em;
   padding-bottom: 2em;
 }
-/* line 327, ../scss/_setup.scss */
+/* line 319, ../scss/_setup.scss */
 footer .row {
   margin-bottom: 0;
   height: 6em;
 }
-/* line 333, ../scss/_setup.scss */
+/* line 325, ../scss/_setup.scss */
 footer .vcard {
   color: white;
   border: none;
 }
-/* line 338, ../scss/_setup.scss */
+/* line 330, ../scss/_setup.scss */
 footer .vcard strong {
   color: white;
 }
 
-/* line 347, ../scss/_setup.scss */
+/* line 339, ../scss/_setup.scss */
 .contact-page .sub-header {
   color: #666;
 }
-/* line 352, ../scss/_setup.scss */
+/* line 344, ../scss/_setup.scss */
 .contact-page span {
   color: #666;
 }
