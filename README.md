@@ -1,4 +1,4 @@
 sdds
 ====
 
-Website for Sterner Family Dental
+Website for [Sterner Family Dental](http://www.sternerfamilydental.com/)
